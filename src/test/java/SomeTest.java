@@ -4,13 +4,13 @@ import org.junit.Test;
 /**
  * Created by Oleksandr_Gura on 8/3/2016.
  */
-public class SomeTests {
+public class SomeTest {
 
     @Test
     public void firstTest(){
 
         System.out.println("First test");
-        Assert.assertTrue(true);
+        Assert.assertTrue(Main.func(5)==5);
     }
 
     @Test
@@ -18,7 +18,7 @@ public class SomeTests {
 
         System.out.println("Second test");
 
-        Assert.assertTrue(true);
+        Assert.assertTrue(Main.func(5)==5);
     }
 
     @Test
@@ -26,6 +26,6 @@ public class SomeTests {
 
         System.out.println("Third test");
 
-        Assert.assertTrue(true);
+        Assert.assertTrue(Main.func(5)==5);
     }
 }
